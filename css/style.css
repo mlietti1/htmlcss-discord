@@ -119,20 +119,14 @@ header .btn.accedi {
 
 /* MAIN */
 
-.main section {
-    padding: 130px 0;
-}
-
 main .container {
-    padding: 160px 0;
+    padding: 130px 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
-main .block .img {
-    flex-basis: 60%;
-    background-color: rgb(95, 221, 221);   
+main .img {
+    flex-basis: 60%;  
 }
 
 main .container .description {
@@ -147,7 +141,7 @@ main .container .description {
     line-height: 1.5em;
 }
 
-main .grigio {
+main .bg-grey {
     background-color: #f6f6f6;
 }
 
@@ -155,17 +149,29 @@ main .section-bottom .container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
 }
 
-main .section-bottom .big-img {
+.section-bottom .description {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-bottom .big-img {
     width: 100%;
-    background-color: #3161e0;
-    margin: 100px 0;
+    margin-top: 30px;
 }
 
-.section-bottom h3 {
-    margin: 30px 0;
+.cta h3 {
+    font-size: 27px;
+    line-height: 1em;
+    margin-bottom: 50px;
+}
+
+.cta .btn {
+    padding: 1em 1.5em;
+    background-color: #8EA1E1;
+    color: white;
+    margin-top: 20px;
 }
 
 footer {
